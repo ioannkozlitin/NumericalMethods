@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.9)  17 NOV 2017 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.9)  17 NOV 2017 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,43 +703,52 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `NumericalMethods.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  (../1/1.tex
 LaTeX Font Info:    Try loading font information for T2A+cmss on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)) [1
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NumericalMethods.aux) )
- 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3] (./NumericalMetho
+ds.aux) ) 
 Here is how much of TeX's memory you used:
- 3714 strings out of 494440
- 51016 string characters out of 6173198
- 168595 words of memory out of 5000000
- 7002 multiletter control sequences out of 15000+600000
- 7205 words of font info for 19 fonts, out of 8000000 for 9000
+ 3752 strings out of 494440
+ 51328 string characters out of 6173198
+ 176785 words of memory out of 5000000
+ 7030 multiletter control sequences out of 15000+600000
+ 11143 words of font info for 31 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 43i,6n,50p,525b,158s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/dimakov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/dim
-akov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1728.600pk>
-Output written on NumericalMethods.pdf (1 page, 12626 bytes).
+ 43i,9n,50p,899b,172s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/dimakov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> <
+/home/dimakov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/dimak
+ov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1728.600pk></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on NumericalMethods.pdf (3 pages, 130211 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 199 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
