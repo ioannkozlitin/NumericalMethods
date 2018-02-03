@@ -1,0 +1,80 @@
+\section{Теоретический материал к семинару №3}
+Семейство одностадийных схем Розенброка для задачи Коши
+\begin{equation} \label{c3eq1}
+	\begin{cases}
+		\displaystyle \frac{d\mathbf{u}}{dt} = \mathbf{f} \left( \mathbf{u}, t \right) \\
+		\mathbf{u}(t_0) = \mathbf{u}_0
+	\end{cases}
+\end{equation}
+имеет следующий вид:
+\begin{equation} \label{c3eq2}
+	\begin{cases}
+		\displaystyle \left( \mathbf{E} - \alpha \tau \mathbf{f_u} \right) = \mathbf{f} \left( \mathbf{u}, t + \frac{\tau}{2} \right) \\
+		\mathbf{\hat{u}} = \mathbf{u} + \tau \operatorname{Re} \boldsymbol{\omega}
+	\end{cases}
+\end{equation}
+Здесь $\alpha$ - параметр схемы, $\tau$ - шаг схемы по времени, $\mathbf{f_u}$ - производная правой части по переменной $\mathbf{u}$, $\mathbf{u}$ и $\mathbf{\hat{u}}$ - численное решение в текущий и следующий моменты времени соответственно. Практический интерес представляют схемы из семейства одностадийных схем Розенброка при  
+\begin{equation} \nonumber
+\alpha = \frac{1}{2},
+\qquad
+\alpha = 1,
+\qquad
+\alpha = \frac{1+i}{2}.
+\end{equation}
+
+Векторная переменная $\boldsymbol{\omega}$ получается из решения системы линейных уравнений с правой частью $\displaystyle \mathbf{f} \left( \mathbf{u}, t + \frac{\tau}{2} \right)$ и матрицей системы $\mathbf{E} - \alpha \tau \mathbf{f_u}$. Эту матрицу \textbf{\textit{не следует}} обращать численно, так как если вычислять  $\boldsymbol{\omega}$ как $\displaystyle \left( \mathbf{E} - \alpha \tau \mathbf{f_u} \right)^{-1} \mathbf{f} \left( \mathbf{u}, t + \frac{\tau}{2} \right)$, то это потребует большего объема вычислений, чем решение линейной системы. Особенно заметна разница в производительности, если матрица системы имеет ленточную форму, что часто бывает при применении схем Розенброка к решению систем дифференциальных уравнений, возникающий при численном решении уравнений в частных производных.
+
+Матрицу производных $\mathbf{f_u}$ при реализации схем Розенброка в общем виде лучше вычислять численно с помощью центральной разности с шагом $\Delta u = 10^{-5}$. Ее надо строить таким образом, чтобы в 1 строке $\mathbf{f_u}$ были производные 1 компоненты вектор-столбца $\mathbf{f}$, по всем компонентам $\mathbf{u}$, во 2 строке - производные 2 компоненты $\mathbf{f}$ по всем компонентам $\mathbf{u}$ и т.д.
+
+\subsection{Задачи к семинару №3}
+\begin{enumerate}
+\item Решить задачу Коши с правой частью, задаваемой функцией
+\begin{matlablisting}
+	\begin{lstlisting}
+function y = f(t, u)
+     y = [-50*(u(1)-cos(t))+10*u(2); 
+           1.2*u(1)-u(2)*u(1)       ];
+end		
+	\end{lstlisting}
+\end{matlablisting}
+на временном отрезке $\lstinline|[0; 0.75]|$
+при начальном значении $\lstinline|u0 = [1;1]|$ с помощью явной схемы Рунге-Кутта второго порядка типа предиктор-корректор, задаваемой матрицей Бутчера $\mathbf{A}$ и векторами $\mathbf{a}$ и $\mathbf{b}$ (см. предыдущий семинар)
+\begin{equation} \nonumber
+	\mathbf{A} = 
+		\begin{pmatrix}
+		0 & 0 \\
+		1/2 & 0 \\
+		\end{pmatrix},
+	\qquad
+	\mathbf{a} = 
+		\begin{pmatrix}
+		0 \\
+		1/2 \\
+		\end{pmatrix},
+	\qquad
+	\mathbf{b} = 
+		\begin{pmatrix}
+		0 \\
+		1 \\
+		\end{pmatrix}^T.
+\end{equation}
+Расчет провести с шагом по времени $\tau = 1/8$ и $\tau = 1/128$.
+\item Реализовать семейство одностадийных схем Розенброка в общем виде. Для тестирования использовать задачу Коши из предыдущей задачи. Положить на один график результаты расчета этой задачи при  
+\begin{equation} \nonumber
+	\alpha = \frac{1}{2},
+	\qquad
+	\alpha = 1,
+	\qquad
+	\alpha = \frac{1+i}{2}.
+\end{equation} 
+Взять шаг по времени $\tau = 1/8$. На тот же график положить результат расчета, полученный явной схемой, при $\tau = 1/128$. На графике должны присутствовать обе компоненты вектора решения (т.е. всего должно быть 8 кривых). Для построения графика удобно использовать, например, такую команду
+\begin{matlablisting}
+	\begin{lstlisting}
+plot(t,cros,'r+-',t,ros05,'g+-',t,ros1,'b+-',t0,rk2,'k');
+	\end{lstlisting}
+\end{matlablisting}
+Здесь $\lstinline|t|$ задает редкую сетку по времени, а $\lstinline|t0|$ – более подробную. 
+
+Объяснить поведение кривых численного решения в терминах $A$-устойчивость, $Lp$-устойчивость, $t$–монотонность.
+
+\end{enumerate}
