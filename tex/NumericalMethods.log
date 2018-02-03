@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  1 FEB 2018 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  3 FEB 2018 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,6 +713,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count102
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count103
+\lst@currlwidth=\dimen113
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen116
+
+(c:/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box31
+)
+(c:/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (c:/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -726,18 +751,18 @@ Package ifvtex Info: VTeX not detected.
 (c:/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
-\Gm@bindingoffset=\dimen113
-\Gm@wd@mp=\dimen114
-\Gm@odd@mp=\dimen115
-\Gm@even@mp=\dimen116
-\Gm@layoutwidth=\dimen117
-\Gm@layoutheight=\dimen118
-\Gm@layouthoffset=\dimen119
-\Gm@layoutvoffset=\dimen120
-\Gm@dimlist=\toks22
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks23
 )
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -791,16 +816,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen121
-\Hy@linkcounter=\count105
-\Hy@pagecounter=\count106
+\@linkdim=\dimen125
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count107
+\Hy@SavedSpaceFactor=\count115
 Package hyperref Info: Option `unicode' set `true' on input line 3453.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/puenc.def
@@ -832,17 +857,17 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count108
+\c@Hy@tempcnt=\count116
 
 (c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen122
-\Fld@menulength=\count109
-\Field@Width=\dimen123
-\Fld@charsize=\dimen124
+\XeTeXLinkMargin=\dimen126
+\Fld@menulength=\count117
+\Field@Width=\dimen127
+\Fld@charsize=\dimen128
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -852,17 +877,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count110
-\c@Item=\count111
-\c@Hfootnote=\count112
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count113
-\c@bookmark@seq@number=\count114
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
 \Hy@SectionHShift=\skip58
 )
 (./NumericalMethods.aux
@@ -873,24 +898,25 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `NumericalMethods.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+\c@lstlisting=\count123
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -926,19 +952,19 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 21.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 32.
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./NumericalMethods.out) (./NumericalMethods.out)
 \@outlinefile=\write3
@@ -994,61 +1020,109 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 86.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
+) (./chapter2.tex
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 8.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 8.
  [3pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{equation.1.17}) has been already used, duplicate ignored
+l.8 \end{equation}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{equation.1.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 \end{document}
-                   ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+l.8 \end{equation}
+                  ]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 35.
+ (c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
+ (c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 104.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 \end{enumerate}
+                     ]
+Overfull \hbox (9.55466pt too wide) in paragraph at lines 107--134
+ [] 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 35.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./NumericalMethods.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `NumericalMethods.out' has not changed.
-(rerunfilecheck)             Checksum: 54EC22319BB1FB4E307F89232377E6EC;1634.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
+(rerunfilecheck)             Checksum: C3EC45EBB7DBF5C98C58FEB9D325EAF8;2176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
  ) 
 Here is how much of TeX's memory you used:
- 12102 strings out of 492980
- 177319 string characters out of 6136208
- 352866 words of memory out of 5000000
- 15550 multiletter control sequences out of 15000+600000
- 11962 words of font info for 32 fonts, out of 8000000 for 9000
+ 14417 strings out of 492980
+ 206763 string characters out of 6136208
+ 429613 words of memory out of 5000000
+ 17779 multiletter control sequences out of 15000+600000
+ 14731 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,51p,8856b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,20n,51p,8856b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfsx1728.pfb>
-Output written on NumericalMethods.pdf (3 pages, 141534 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmib10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/cm-super/sfsx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sfsx1728.pfb>
+Output written on NumericalMethods.pdf (5 pages, 183939 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,56 +3,56 @@
 \subsection{Оценка погрешности по Ричардсону}
 Пусть некоторая величина $U$ была вычислена на сетке с шагом $h$, тогда
 \begin{equation} \label{c1eq1}
-U = U_h + R_h,
+	U = U_h + R_h,
 \end{equation}
 где $U_h$ - вычисленное значение, а $R_h$ - его погрешность. Теперь изменим шаг сетки в $r$ раз. Получим аналогично
 \begin{equation} \label{c1eq2}
-U = U_{rh} + R_{rh}.
+	U = U_{rh} + R_{rh}.
 \end{equation}
 Если метод сходится к точному решению с порядком $p$, то
 \begin{equation} \label{c1eq3}
-R_h = ch^p + o(h^p),
+	R_h = ch^p + o(h^p),
 \end{equation}
-где $c$- некоторая константа, независящая от $h$, причем $c \neq 0$.
+где $c$ - некоторая константа, независящая от $h$, причем $c \neq 0$.
 Записав аналогичное выражение для погрешности расчета с шагом $rh$ и подставив результат в \eqref{c1eq2}, а также подставив \eqref{c1eq3} в \eqref{c1eq1} получим
 \begin{equation} \label{c1eq4}
-U = U_h + ch^p + o(h^p),
-\qquad 
-U = U_{rh} + cr^ph^p + o(h^p).
+	U = U_h + ch^p + o(h^p),
+	\qquad 
+	U = U_{rh} + cr^ph^p + o(h^p).
 \end{equation}
 Пренебрегая членами более высокого порядка, чем $h^p$, вычтем из первого уравнения второе, тогда
 \begin{equation} \label{c1eq5}
-0 = U_h - U_{rh} + ch^p(1-r^p).
+	0 = U_h - U_{rh} + ch^p(1-r^p).
 \end{equation}
 Выразим из этого равенства $ch^p$
 \begin{equation} \label{c1eq6}
-ch^p = \frac{U_{rh} - U_h}{1 - r^p}.
+	ch^p = \frac{U_{rh} - U_h}{1 - r^p}.
 \end{equation}
 Если отбросить члены более высокого, чем $p$ порядка, то $R_{rh} = cr^ph^p$. Отсюда, учитывая \eqref{c1eq6}, получим
 \begin{equation} \label{c1eq7}
-R_{rh} = \frac{U_{rh} - U_h}{r^{-p} - 1}.
+	R_{rh} = \frac{U_{rh} - U_h}{r^{-p} - 1}.
 \end{equation}
 Эта формула дает асимптотически точную оценку погрешности на более подробной сетке. Добавив ее к $U_{rh}$, мы можем получить ответ с более высоким порядком точности
 \begin{equation} \label{c1eq8}
-U_{rh}^* = U_{rh} + R_{rh} = U_{rh} + \frac{U_{rh} - U_h}{r^{-p} - 1} = \frac{r^{-p}U_{rh} - U_h}{r^{-p} - 1}.
+	U_{rh}^* = U_{rh} + R_{rh} = U_{rh} + \frac{U_{rh} - U_h}{r^{-p} - 1} = \frac{r^{-p}U_{rh} - U_h}{r^{-p} - 1}.
 \end{equation}
 
 \subsection{Оценка погрешности по Эйткену}
 Недостатком рассмотренного метода вычисления погрешности является необходимость знания порядка метода $p$. Если сделать два последовательных сгущения в одинаковое число раз, то можно оценить порядок. В самом деле, рассмотрим отношение
 \begin{equation} \label{c1eq9}
-\frac{U_{r^2h} - U_{rh}}{U_{rh} - U_h} = \frac{\left( 1 - r^p \right) cr^ph^p}{\left( 1 - r^p \right) ch^p} = r^p.
+	\frac{U_{r^2h} - U_{rh}}{U_{rh} - U_h} = \frac{\left( 1 - r^p \right) cr^ph^p}{\left( 1 - r^p \right) ch^p} = r^p.
 \end{equation}
 Здесь было дважды использовано выражение \eqref{c1eq6}. Подставив $r^p$ в выражение
 \begin{equation} \label{c1eq10}
-R_{r^2h} = \frac{U_{r^2h} - U_{rh}}{r^{-p} - 1}.
+	R_{r^2h} = \frac{U_{r^2h} - U_{rh}}{r^{-p} - 1}.
 \end{equation}
 получим требуемую оценку погрешности
 \begin{equation} \label{c1eq11}
-R_{r^2h} = \frac{U_{r^2h} - U_{rh}} {\displaystyle \frac{U_{rh} - U_h}{U_{r^2h} - U_{rh}} - 1}.
+	R_{r^2h} = \frac{U_{r^2h} - U_{rh}} {\displaystyle \frac{U_{rh} - U_h}{U_{r^2h} - U_{rh}} - 1}.
 \end{equation}
 Аналогично \eqref{c1eq8} можно вычислить уточненное решение
 \begin{equation} \label{c1eq12} 
-U_{r^2h}^* = U_{r^2h} + R_{r^2h} = U_{r^2h} + \frac{U_{r^2h} - U_{rh}} {\displaystyle \frac{U_{rh} - U_h}{U_{r^2h} - U_{rh}} - 1}.
+	U_{r^2h}^* = U_{r^2h} + R_{r^2h} = U_{r^2h} + \frac{U_{r^2h} - U_{rh}} {\displaystyle \frac{U_{rh} - U_h}{U_{r^2h} - U_{rh}} - 1}.
 \end{equation}
 
 \subsection{Рекуррентное сгущение}
@@ -65,22 +65,22 @@ U_{r^2h}^* = U_{r^2h} + R_{r^2h} = U_{r^2h} + \frac{U_{r^2h} - U_{rh}} {\display
 \subsection{Эффективный порядок метода}
 Из формулы \eqref{c1eq9} можно выразить эффективный порядок метода $p$
 \begin{equation} \label{c1eq13}
-p = \log_r \frac{U_{r^2h} - U_{rh}}{U_{rh} - U_h}.
+	p = \log_r \frac{U_{r^2h} - U_{rh}}{U_{rh} - U_h}.
 \end{equation}
 Для вычисления порядка требуется 3 сетки. Если имеются $N$ расчетов, то по 1,2 и 3 расчету можно получить первую оценку порядка, по 2,3 и 4 – вторую и т.д. – всего $N-2$ оценок. Потом можно построить график эффективного порядка, отложив по оси абсцисс номер тройки, а по оси ординат - соответствующее значение $p$. По такому графику можно наблюдать, к какому значению стремится .
 Существует еще один способ определения эффективного порядка – построение графика $\lg\left| U_{rh} - U_h \right|$ от $-\lg h$ (или от $\lg N$, где $N$ - число интервалов сетки). Действительно, согласно \eqref{c1eq6}
 \begin{equation} \label{c1eq14}
-\lg \left| U_{rh} - U_h \right| = \lg \big( \left| c \right| \left( 1 - r^p \right) \big) + \left( -p \right) \left( - \lg h \right).
+	\lg \left| U_{rh} - U_h \right| = \lg \big( \left| c \right| \left( 1 - r^p \right) \big) + \left( -p \right) \left( - \lg h \right).
 \end{equation}
 Отсюда видно, что график должен быть близок к прямой, тангенс угла наклона которой даст нам. Угол наклона можно определить, например, методом наименьших квадратов (в системе MATLAB Tools/Basic Fitting/linear в окне графика). 
 
 \textbf{Замечание.} Выше при выводе и конечной записи всех формул использовался шаг сетки $h$ и множитель $r$, означающий отношение шага сгущенной сетки к шагу исходной. Часто более удобно использовать число интервалов сетки $N$, а в качестве множителя $r$ - отношения числа интервалов новой сетки к числу интервалов старой. Очевидно, что «новый» $r$ будет обратной величиной к «старому». Поэтому для перехода от шагов сетки к  числам интервалов необходимо провести следующие замены:
 \begin{equation} \label{c1eq15}
-r \rightarrow r^-1, \ U_{rh} \rightarrow U_{rN}, \ U_{r^2h} \rightarrow U_{r^2N}, \ R_{rh} \rightarrow R_{rN}, \ R_{r^2h} \rightarrow R_{r^2N}.
+	r \rightarrow r^-1, \ U_{rh} \rightarrow U_{rN}, \ U_{r^2h} \rightarrow U_{r^2N}, \ R_{rh} \rightarrow R_{rN}, \ R_{r^2h} \rightarrow R_{r^2N}.
 \end{equation}
 Например, в этих обозначениях основная формула \eqref{c1eq7} будет выглядеть как
 \begin{equation} \label{c1eq16}
-R_{rN} = \frac{U_{rN} - U_N}{r^p - 1}.
+	R_{rN} = \frac{U_{rN} - U_N}{r^p - 1}.
 \end{equation}
 
 \subsection{Задачи к семинару №1}
@@ -88,26 +88,26 @@ R_{rN} = \frac{U_{rN} - U_N}{r^p - 1}.
 \item Вычислить $\displaystyle f = 21b^2 - 2a^2 + 44b^4 - 10a^2b^2 + \frac{a}{2b}$ при $a = 77617$ и $b = 33096$.
 \item Вычислить собственные значения матрицы $A$ аналитически и средствами MATLAB. Отобразить результат на комплексной плоскости.
 \begin{equation} \nonumber
-A = 
-\begin{pmatrix}
-1 & 0 & \cdots & \cdots & 0 & 10^{-2m} \\
-1 & 1 & \ddots &  &  & 0 \\
-0 & 1 & \ddots &  \ddots &  & \vdots \\
-\vdots &  & \ddots & \ddots & \ddots & \vdots \\
-\vdots &  &  & \ddots & \ddots  & 0 \\
-0 & \cdots & \cdots &  \cdots & 1 & 1 \\
-\end{pmatrix}_{2m \times 2m}
+	A = 
+	\begin{pmatrix}
+		1 & 0 & \cdots & \cdots & 0 & 10^{-2m} \\
+		1 & 1 & \ddots &  &  & 0 \\
+		0 & 1 & \ddots &  \ddots &  & \vdots \\
+		\vdots &  & \ddots & \ddots & \ddots & \vdots \\
+		\vdots &  &  & \ddots & \ddots  & 0 \\
+		0 & \cdots & \cdots &  \cdots & 1 & 1 \\
+	\end{pmatrix}_{2m \times 2m}
 \end{equation}
 Расчет выполнить при $m = 20,23,30$.
 \item Получить формулу Симпсона из формулы трапеций с помощью однократного сгущения сетки в 2 раза и формулы Ричардсона \eqref{c1eq7}.
 \item Вычислить интеграл 
 \begin{equation} \nonumber
-\int_{0}^{1} \frac{4}{1 + x^2} dx
+	\int_{0}^{1} \frac{4}{1 + x^2} dx
 \end{equation}
 численно по формуле трапеций при числе интервалов сетки $N = 16,32,64,128,256$. Затем с помощью формулы \eqref{c1eq13} или формулы \eqref{c1eq14} построить график эффективного порядка. Провести уточнение решения по формуле Ричардсона, получив из 5 расчетных значений 4 уточненных. По уточненным значениям вновь построить график эффективного порядка.
 \item Вычислить интеграл 
 \begin{equation} \nonumber
-\int_{0}^{1} \frac{1}{2 \sqrt{x}} dx
+	\int_{0}^{1} \frac{1}{2 \sqrt{x}} dx
 \end{equation}
 по формуле средних прямоугольников при тех же $N$. Определить эффективный порядок, провести уточнение по Эйткену (получив 3 уточненных значения), вновь определить эффективный порядок. После этого провести еще одно уточнение решения по Эйткену и сравнить полученный результат с точным значением интеграла.
 \end {enumerate}

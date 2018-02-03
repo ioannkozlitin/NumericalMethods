@@ -3,6 +3,7 @@
 \usepackage[english,russian]{babel}
 \usepackage{indentfirst}
 \usepackage{amsmath}
+\usepackage{listings}
 \parindent = 1.25cm
 \usepackage[a4paper, includefoot, left=2cm, right=2cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
 \usepackage[
@@ -16,8 +17,19 @@ pdftex,
 hidelinks
 ]{hyperref}
 
+\newenvironment{matlablisting}
+	{	\\
+		\begin{minipage}{\linewidth}
+		\begin{center}
+		\begin{tabular}{c}	
+		\lstset{language=Matlab}	}
+	{	\end{tabular}
+		\end{center}
+		\end{minipage}	}
+
 \numberwithin{equation}{section}
 
 \begin{document}
 \input{./chapter1}
+\input{./chapter2}
 \end{document}
