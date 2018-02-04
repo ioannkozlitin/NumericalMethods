@@ -4,7 +4,6 @@
 \usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{listings}
-\lstset{language=Matlab}
 \parindent = 1.25cm
 \usepackage[a4paper, includefoot, left=2cm, right=2cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
 \usepackage[
@@ -22,7 +21,8 @@ hidelinks
 	{	\\
 		\begin{minipage}{\linewidth}
 		\begin{center}
-		\begin{tabular}{c}	}
+		\begin{tabular}{c}	
+		\lstset{language=Matlab, basicstyle=\ttfamily, keywordstyle=\bfseries}	}
 	{	\end{tabular}
 		\end{center}
 		\end{minipage}	}
