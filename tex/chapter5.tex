@@ -1,0 +1,45 @@
+\section{Теоретический материал к семинару №5}
+Необходимо решить краевую задачу
+\begin{equation} \label{c5eq1}
+	\begin{cases}
+		 \displaystyle \frac{d}{dx} \left( \left( k_0 + k_1 u^2 \right) \frac{du}{dx} \right) = f(x) \\
+		u(a) = u(b) = 0
+	\end{cases},
+\end{equation}
+где $[a; b]$ - отрезок, на котором ищется решение.
+
+Для этой задачи можно написать следующую разностную схему:
+\begin{equation} \label{c5eq2}
+	\begin{cases}
+		\displaystyle \left( u_{n+1} - u_n \right) \left( k_0 + k_1 \frac{u_n^2 + u_{n+1}^2}{2} \right) - \left( u_n - u_{n-1} \right) \left( k_0 + k_1 \frac{u_n^2 + u_{n-1}^2}{2} \right) - h^2 f_n = 0 \\
+		u_0 = u_N = 0
+	\end{cases}.
+\end{equation}
+Здесь $h$ - шаг равномерной сетки, $N$ - число интервалов сетки. Данная система уравнений является нелинейной и решать ее лучше всего методом Ньютона.
+
+Многомерный метод Ньютона для задачи
+\begin{equation} \label{c5eq3}
+	\mathbf{F}(\mathbf{x}) = 0
+\end{equation}
+является итерационным и выглядит так:
+\begin{equation} \label{c5eq4}
+	\begin{cases}
+		\displaystyle \frac{\partial \mathbf{F}(\mathbf{x}_s)}{\partial \mathbf{x}_s}  \mathbf{\Delta x}_s = -\mathbf{F}(\mathbf{x}_s)\\
+		\mathbf{x}_{s+1} = \mathbf{x}_s + \mathbf{\Delta x}_s
+	\end{cases},
+\end{equation}
+где $\displaystyle \frac{\partial \mathbf{F}(\mathbf{x}_s)}{\partial \mathbf{x}_s}$ - матрица первых производных. В качестве условия окончания итераций можно взять
+\begin{equation} \label{c5eq5}
+	\|\mathbf{\Delta x}_s\| < \varepsilon,
+\end{equation}
+где $\varepsilon \approx 10^{-12}$ для 64-разрядных вычислений. Сходимость метода сильно зависит от выбранного начального приближения. Вблизи решения сходимость квадратичная, вдали от него ее может вообще не быть. Одно из возможных решений – использовать вектор из случайных чисел. В случае неудачи можно сгенерировать еще один и повторить расчет, пока расчет не получится.
+\subsection{Задачи к семинару №5}
+Уточним условие. Отрезок, на котором следует искать решение - $[-1; 1]$, число интервалов сетки $N = 128$, $k_0 = 1$, $k_1 = 0.05$, в качестве начального приближения в данном случае удобно брать нулевой вектор. Функция $f(x)$ в правой части задается так:
+\begin{matlablisting}
+	\begin{lstlisting}
+function y = ff(x)
+    y = 100*exp(-(10*(x-0.5)).^2);
+end
+	\end{lstlisting}
+\end{matlablisting}
+Построить график решения.

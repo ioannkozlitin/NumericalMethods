@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  3 FEB 2018 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  4 FEB 2018 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,14 +898,7 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 21.
 
 (c:/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-LaTeX Warning: Label `c3eq1' multiply defined.
-
-
-LaTeX Warning: Label `c3eq2' multiply defined.
-
-)
+))
 \openout1 = `NumericalMethods.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -1142,34 +1135,48 @@ Package babel Info: Redefining russian shorthand "~
                                                   \fi \fi 
 l.72 \item �
             �пределить  эффективный порядок ме�...
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+]) (./chapter5.tex
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 19.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 19.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 36.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 38.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./NumericalMethods.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `NumericalMethods.out' has not changed.
-(rerunfilecheck)             Checksum: 3370E8850BDE0A9B135C5FCA2E846F5F;3263.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
+(rerunfilecheck)             Checksum: E958B1216ABA7B831D100CE9963D928A;3807.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 14508 strings out of 492980
- 207841 string characters out of 6136208
- 406391 words of memory out of 5000000
- 17812 multiletter control sequences out of 15000+600000
+ 14536 strings out of 492980
+ 208159 string characters out of 6136208
+ 407024 words of memory out of 5000000
+ 17825 multiletter control sequences out of 15000+600000
  15621 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,20n,51p,8856b,1945s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1188,10 +1195,10 @@ type1/public/cm-super/sfbi1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsx1440
 .pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on NumericalMethods.pdf (8 pages, 222078 bytes).
+Output written on NumericalMethods.pdf (9 pages, 227993 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 138 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \section{Теоретический материал к семинару №4}
 Дифференциально-алгебраическая система содержит как дифференциальные, так и алгебраические уравнения. В общем виде она записывается как
-\begin{equation} \label{c3eq1}
+\begin{equation} \label{c4eq1}
 	\begin{cases}
 		\displaystyle \mathbf{G} \frac{d\mathbf{u}}{dt} = \mathbf{F} \left( \mathbf{u}, t \right) \\
 		\mathbf{u}(t_0) = \mathbf{u}_0
@@ -9,7 +9,7 @@
 где $\mathbf{G}$ - матрица коэффициентов при производных. 
 
 Для ее решения можно использовать семейство схем Розенброка, заменив в них матрицу $\mathbf{E}$ матрицей $\mathbf{G}$  
-\begin{equation} \label{c3eq2}
+\begin{equation} \label{c4eq2}
 	\begin{cases}
 		\displaystyle \left( \mathbf{G} - \alpha \tau \mathbf{F_u} \right) \boldsymbol{\omega} = \mathbf{F} \left( \mathbf{u}, t + \frac{\tau}{2} \right) \\
 		\mathbf{\hat{u}} = \mathbf{u} + \tau \operatorname{Re} \boldsymbol{\omega}
