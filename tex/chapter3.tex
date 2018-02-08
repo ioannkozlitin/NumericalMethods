@@ -9,11 +9,11 @@
 имеет следующий вид:
 \begin{equation} \label{c3eq2}
 	\begin{cases}
-		\displaystyle \left( \mathbf{E} - \alpha \tau \mathbf{f_u} \right) = \mathbf{f} \left( \mathbf{u}, t + \frac{\tau}{2} \right) \\
+		\displaystyle \left( \mathbf{E} - \alpha \tau \mathbf{f_u} \right) \boldsymbol{\omega}= \mathbf{f} \left( \mathbf{u}, t + \frac{\tau}{2} \right) \\
 		\mathbf{\hat{u}} = \mathbf{u} + \tau \operatorname{Re} \boldsymbol{\omega}
 	\end{cases}
 \end{equation}
-Здесь $\alpha$ - параметр схемы, $\tau$ - шаг схемы по времени, $\mathbf{f_u}$ - производная правой части по переменной $\mathbf{u}$, $\mathbf{u}$ и $\mathbf{\hat{u}}$ - численное решение в текущий и следующий моменты времени соответственно. Практический интерес представляют схемы из семейства одностадийных схем Розенброка при  
+Здесь $\alpha$ - параметр схемы, $\tau$ - шаг схемы по времени, $\mathbf{f_u}$ - матрица производных правой части по вектору $\mathbf{u}$, $\mathbf{u}$ и $\mathbf{\hat{u}}$ - численное решение в текущий и следующий моменты времени соответственно. Практический интерес представляют схемы из семейства одностадийных схем Розенброка при  
 \begin{equation} \nonumber
 \alpha = \frac{1}{2},
 \qquad
