@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  15 FEB 2018 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.1)  15 FEB 2018 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,10 @@ entering extended mode
 (./NumericalMethods.tex
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 84 language(s) loaded.
-(c:/texlive/2017/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(c:/texlive/2017/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -836,24 +836,24 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `NumericalMethods.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 \c@lstlisting=\count123
 
 *geometry* driver: auto-detecting
@@ -863,7 +863,7 @@ LaTeX Font Info:    ... okay on input line 37.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includefoot twoside 
+* modes: includefoot 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -877,21 +877,21 @@ LaTeX Font Info:    ... okay on input line 37.
 * \headsep=28.45274pt
 * \topskip=12.0pt
 * \footskip=28.45274pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 38.
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -900,28 +900,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./NumericalMethods.out) (./NumericalMethods.out)
 \@outlinefile=\write3
 \openout3 = `NumericalMethods.out'.
 
- (./NumericalMethods.toc
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 34.
-
-[1
-
-
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+ (./NumericalMethods.toc)
 \tf@toc=\write4
 \openout4 = `NumericalMethods.toc'.
 
@@ -935,7 +922,10 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [2]
+ [1
+
+
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 1.
 Package babel Info: Redefining russian shorthand "|
@@ -943,18 +933,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 42.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 42.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 46.
@@ -962,18 +940,10 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 46.
-[3
+[2
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 60.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 60.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 67.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 67.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 79.
@@ -981,11 +951,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 79.
- [4]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 89.
+ [3]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 114.
 Package babel Info: Redefining russian shorthand "~
@@ -994,7 +960,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 114.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 114.
- [5pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+ [4pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1009,7 +975,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [6pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+ [5pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1023,14 +989,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 71.
@@ -1038,7 +996,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 71.
-[7
+[6
 
 ] (c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1056,9 +1014,6 @@ Overfull \hbox (17.41336pt too wide) in paragraph at lines 109--135
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 137.
 Package babel Info: Redefining russian shorthand "~
@@ -1067,8 +1022,8 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 137.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 137.
- [8pdfTeX warning (ext4): destination with the same identifier (name{equation.2
-.4}) has been already used, duplicate ignored
+[7pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1082,18 +1037,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [9]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
- [10
-
-]
+ [8]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 3.
 Package babel Info: Redefining russian shorthand "|
@@ -1101,26 +1045,17 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 48.
+[9
 
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 48.
- [11pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.3}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1154,7 +1089,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [12]
+ [10]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 4.
 Package babel Info: Redefining russian shorthand "|
@@ -1162,14 +1097,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 75.
@@ -1177,7 +1104,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 75.
-[13
+[11
 
 ]) (./chapter5.tex
 Package babel Info: Redefining russian shorthand "|
@@ -1188,21 +1115,13 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [14]
+ [12]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 5.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
 ) (./chapter6.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
@@ -1212,9 +1131,35 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [15
+ [13
 
 ]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+ [14]
+\IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
+IeC {\cyrr } 6.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 38.
+[15
+
+]) (./chapter7.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
@@ -1225,55 +1170,12 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
  [16]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
-IeC {\cyrr } 6.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
-[17
-
-]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 41.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 41.
-) (./chapter7.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
- [18]
-\IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 7.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 27.
@@ -1281,7 +1183,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 27.
-[19
+[17
 
 ]) (./chapter8.tex
 Package babel Info: Redefining russian shorthand "|
@@ -1292,17 +1194,13 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [20]
+ [18]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 8.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
 ) (./chapter9.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
@@ -1312,18 +1210,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [21
-
-]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
- [22
+ [19
 
 ]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
@@ -1332,14 +1219,6 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 19.
 ) (./chapter10.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
@@ -1349,16 +1228,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [23]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
- [24
+ [20
 
 ]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
@@ -1368,14 +1238,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 42.
@@ -1383,7 +1245,9 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 42.
-[25]) (./chapter11.tex
+[21
+
+]) (./chapter11.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
@@ -1392,21 +1256,13 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [26]
+ [22]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 11.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 18.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 18.
 ) (./chapter12.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
@@ -1416,18 +1272,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [27
-
-]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
- [28
+ [23
 
 ]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
@@ -1437,10 +1282,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 40.
@@ -1448,12 +1289,9 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 40.
-[29]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
-) (./chapter13.tex
+[24
+
+]) (./chapter13.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
@@ -1462,7 +1300,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [30]
+ [25]
 \IeC {\CYRS }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\
 IeC {\cyrr } 13.
 Package babel Info: Redefining russian shorthand "|
@@ -1470,10 +1308,6 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 49.
@@ -1481,14 +1315,10 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 49.
-[31
+[26
 
 ]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 89.
@@ -1496,31 +1326,31 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 89.
- [32])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+ [27])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
- [33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+(babel)             in language  on input line 55.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (./NumericalMethods.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `NumericalMethods.out' has not changed.
-(rerunfilecheck)             Checksum: 331EAFF2C8985220CB2348EB0EFFA7CF;5470.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+(rerunfilecheck)             Checksum: F7D4BC648593C7F6AA7CC69ADB179444;463.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 12905 strings out of 492980
- 171762 string characters out of 6136208
- 314610 words of memory out of 5000000
- 16052 multiletter control sequences out of 15000+600000
- 24107 words of font info for 56 fonts, out of 8000000 for 9000
+ 12862 strings out of 492980
+ 171228 string characters out of 6136208
+ 313479 words of memory out of 5000000
+ 16016 multiletter control sequences out of 15000+600000
+ 22895 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,20n,43p,1591b,2043s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
@@ -1539,13 +1369,12 @@ ic/cm-super/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
 r/sfbx1440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728
 .pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/t
 exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/cm-super/sftt1200.pfb>
-Output written on NumericalMethods.pdf (33 pages, 363297 bytes).
+7/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2017/texmf-di
+st/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on NumericalMethods.pdf (28 pages, 343551 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 652 compressed objects within 7 object streams
- 267 named destinations out of 1000 (max. 500000)
- 337 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
