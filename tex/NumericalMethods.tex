@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{fancyhdr}
+\usepackage{fancyvrb}
 \usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -22,15 +23,33 @@ hidelinks
 \renewcommand{\@chapapp}{Семинар}
 \makeatother
 
+\newsavebox{\FVerbBox}
+\newenvironment{FVerbatim}
+{\VerbatimEnvironment
+	\begin{center}
+		\begin{lrbox}{\FVerbBox}
+			\begin{BVerbatim}}
+			{\end{BVerbatim}
+		\end{lrbox}
+		\fbox{\usebox{\FVerbBox}}
+\end{center}}
+
 \newenvironment{matlablisting}
-	{	\\
-		\begin{minipage}{\linewidth}
-		\begin{center}
-		\begin{tabular}{c}	
-		\lstset{language=Matlab, basicstyle=\ttfamily, keywordstyle=\bfseries}	}
-	{	\end{tabular}
-		\end{center}
-		\end{minipage}	}
+	{	\begin{center}
+				
+		
+		%\begin{minipage}{\linewidth}
+		%\begin{center}
+		%\begin{tabular}{c}	
+}
+	{	
+	%\end{minipage}
+
+	\end{center}
+		%\end{tabular}
+		%\end{center}
+		%\end{minipage}	
+	}
 
 \numberwithin{equation}{chapter}
 \setcounter{tocdepth}{0}

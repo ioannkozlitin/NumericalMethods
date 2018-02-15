@@ -28,31 +28,31 @@ $\alpha = 1/2$ или $\alpha = (1+i)/2$. Для неавтономных диф
 
 Параметры электрической схемы:
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 global r0 r1 r2 r3 r4 r5 ub;
 r0 = 1000; r1 = 9000; r2 = r1; r3 = r1; r4 = r1; r5 = r1;
 c1 = 1e-6; c2 = 2e-6; c3 = 3e-6; ub = 6;
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Начальные условия:
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 u0 = [0; ub*r1/(r1+r2); ub*r1/(r1+r2); ub; 0];
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Матрица коэффициентов при производных:
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 G = [-c1  c1  0   0   0;
       c1 -c1  0   0   0;
       0   0  -c2  0   0;
       0   0   0  -c3  c3;
       0   0   0   c3 -c3];
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Правая часть:
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 function y = ue(t)
     y = 0.1*sin(200*pi*t);
 end
@@ -69,7 +69,7 @@ function y = F(t, u)
          0.99*ff(u(2)-u(3))-ub/r4+u(4)/r4; 
          u(5)/r5                                  ];
 end
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Расчет провести с шагом $h = 1/5000$ на временном отрезке от 0 до 0.3 при $\alpha = 1/2$ и $\alpha = (1+i)/2$. Вывести результат расчета на график (на одном графике будет 2 семейства кривых для двух разных $\alpha$, в каждом семействе по 5 кривых, соответствующих 5 компонентам $\mathbf{u}$). Объяснить разницу между численными решениями при разных $\alpha$.
 \item Определить  эффективный порядок метода с помощью сгущения сеток. Для экономии времени расчет вести до $t = 0.01$. Провести автономизацию и вновь определить эффективный порядок.

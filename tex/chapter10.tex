@@ -14,7 +14,7 @@
 
 Функция $\mu(x,y)$ задается следующим образом ($\texttt{\lstinline|x|}$ и $\texttt{\lstinline|y|}$ - вектора, содержащие координаты узлов прямоугольной сетки):
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 function z = mu(x, y)
     z = zeros(length(y), length(x));
     for i = 1:length(x)
@@ -23,7 +23,7 @@ function z = mu(x, y)
         end
     end
 end
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Параметры области: $a = 6\pi$, $b = 4\pi$, $T = 10$. Выбрать равномерную сетку с $h_x = h_y = \pi/30$ и шагом по времени $\tau = 0.1$. Коэффициент теплопроводности $k = 0.2$. Отображать двумерное решение на каждом временном слое с помощью функции $\texttt{\lstinline|mesh|}$.
 

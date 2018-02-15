@@ -33,7 +33,7 @@
 
 Для расчета закона сопротивления $C_x$ можно использовать следующий код:
 \begin{matlablisting}
-	\begin{lstlisting}
+	\begin{verbatim}
 function r = cx(x)
     pa = [0.0525   -0.9476    8.9342   -9.4610   ...
           0.3207    4.2980   -1.9382                ];
@@ -43,7 +43,7 @@ function r = cx(x)
     r = polyval(pa,x.^2) ./ polyval(pb,x.^2) + ...
         pc(1) ./ (1+exp(-(x-pc(2))*pc(3))) + pc(4);
 end
-	\end{lstlisting}
+	\end{verbatim}
 \end{matlablisting}
 Для учета деривации надо систему дифференциальных уравнений внешней баллистики для движения центра масс тела дополнить еще двумя уравнениями
 \begin{equation} \label{c13eq7}
