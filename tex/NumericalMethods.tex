@@ -1,6 +1,7 @@
-\documentclass[12pt,a4paper]{scrartcl}
+\documentclass[12pt,a4paper]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
+\usepackage{fancyhdr}
 \usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -17,6 +18,10 @@ pdftex,
 hidelinks
 ]{hyperref}
 
+\makeatletter
+\renewcommand{\@chapapp}{Семинар}
+\makeatother
+
 \newenvironment{matlablisting}
 	{	\\
 		\begin{minipage}{\linewidth}
@@ -27,7 +32,7 @@ hidelinks
 		\end{center}
 		\end{minipage}	}
 
-\numberwithin{equation}{section}
+\numberwithin{equation}{chapter}
 
 \begin{document}
 \input{./chapter1}
