@@ -11,3 +11,10 @@
 6. Лекция №13 https://drive.google.com/file/d/1dt9dPNm8hZPoybUE3GnkPXulD8DLsxhx/view?usp=sharing
 7. Лекция №14 https://drive.google.com/file/d/1CAhB2fdba3sYCS2zTbsopZZeDdT7BjFp/view?usp=sharing
 
+Ссылки на лекции 2021 года
+
+1. Лекция №1 https://drive.google.com/file/d/1JSFoZ1zxFqAizNjAHd2e9dMMTfXdvcbV/view?usp=sharing
+2. Лекция №2 https://drive.google.com/file/d/1SuQuOxEkIT0qsKih3T7PCs3pyfpq04OL/view?usp=sharing
+3. Лекция №3 https://drive.google.com/file/d/11Epcv0XUOJ2KN_pyK-YzfmGJFTsglskW/view?usp=sharing
+4. Лекция №4 https://drive.google.com/file/d/1bJylLcEyBC2-95ZQRuPi1YIcbl_adERu/view?usp=sharing
+
