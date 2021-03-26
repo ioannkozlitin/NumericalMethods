@@ -17,4 +17,5 @@
 2. Лекция №2 https://drive.google.com/file/d/1SuQuOxEkIT0qsKih3T7PCs3pyfpq04OL/view?usp=sharing
 3. Лекция №3 https://drive.google.com/file/d/11Epcv0XUOJ2KN_pyK-YzfmGJFTsglskW/view?usp=sharing
 4. Лекция №4 https://drive.google.com/file/d/1bJylLcEyBC2-95ZQRuPi1YIcbl_adERu/view?usp=sharing
-
+5. Лекция №5 https://drive.google.com/file/d/1woVG_vU5jcv5NbnqcN7hScb7O_H_DNVB/view?usp=sharing
+6. Лекция №6 https://drive.google.com/file/d/1gJkWUSrcDUMPMXF975uuk_oxypIDrHa-/view?usp=sharing
