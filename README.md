@@ -19,3 +19,7 @@
 4. Лекция №4 https://drive.google.com/file/d/1bJylLcEyBC2-95ZQRuPi1YIcbl_adERu/view?usp=sharing
 5. Лекция №5 https://drive.google.com/file/d/1woVG_vU5jcv5NbnqcN7hScb7O_H_DNVB/view?usp=sharing
 6. Лекция №6 https://drive.google.com/file/d/1gJkWUSrcDUMPMXF975uuk_oxypIDrHa-/view?usp=sharing
+7. Лекция №7 https://drive.google.com/file/d/1Ru4B7_VfnU7qAXptR7JeU5LSryHow7j9/view?usp=sharing
+8. Лекция №8 https://drive.google.com/file/d/18ThlDCJevBucykyZSZXVjqGF3OlV81vE/view?usp=sharing
+9. Лекция №9 https://drive.google.com/file/d/1Cx59HF39KP3A2irl7tu0fk8siUcq8nhH/view?usp=sharing
+
