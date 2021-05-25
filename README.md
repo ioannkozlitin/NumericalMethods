@@ -24,3 +24,4 @@
 9. Лекция №9 https://drive.google.com/file/d/1Cx59HF39KP3A2irl7tu0fk8siUcq8nhH/view?usp=sharing
 10. Лекция №10 https://drive.google.com/file/d/1ubs55ea8VAeXNVfE9eGGfgu5Id2NxkiL/view?usp=sharing
 11. Лекция №11 https://drive.google.com/file/d/1Vg9UYAuvlw2E1hXYI6LRbsNLIIqXl904/view?usp=sharing
+12. Лекция №12 https://drive.google.com/file/d/1hGLEleKzBKUSjEzeU4olXQIRZenb8Eci/view?usp=sharing
