@@ -27,3 +27,5 @@
 12. Лекция №12 https://drive.google.com/file/d/1hGLEleKzBKUSjEzeU4olXQIRZenb8Eci/view?usp=sharing
 13. Лекция №13 https://drive.google.com/file/d/1HBuOQAJbT4kuiuuxI4I-SSAnv-9b5HVN/view?usp=sharing
 14. Лекция №14 https://drive.google.com/file/d/1pDetxmu3wRAZOAwXpV9skVmqS-nzY4LU/view?usp=sharing
+
+Мой youtube - канал на тему курса: https://www.youtube.com/channel/UCY3qmDaDM9IqvI4JHIbJaHg
