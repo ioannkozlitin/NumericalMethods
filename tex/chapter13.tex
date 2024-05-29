@@ -1,6 +1,19 @@
-\chapter{}
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[T2A]{fontenc}      
+\usepackage[russian]{babel}
+\usepackage{listings} 
+\usepackage{titlesec}
 
-\section{Теоретический материал}
+\titleformat{\section}[block]{\filcenter\bfseries\large}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\filcenter\bfseries\normalsize}{\thesubsection}{1em}{}
+
+\begin{document}
+
+
+\section*{Теоретический материал}
 При движении тела в атмосфере Земли на него помимо силы тяжести также действует сила сопротивления воздуха
 \begin{equation} \label{c13eq1}
 	F(\nu) = i S \frac{\rho \nu^2}{2} C_x \left( \frac{\nu}{a} \right)
@@ -32,19 +45,14 @@
 где $w$ - влажность, выраженная в долях 1. В этой формуле $T_0$ - температура в градусах Цельсия в точке бросания, то есть в числителе дроби стоит абсолютная температура.
 
 Для расчета закона сопротивления $C_x$ можно использовать следующий код:
-\begin{matlablisting}
-	\begin{verbatim}
-function r = cx(x)
-    pa = [0.0525   -0.9476    8.9342   -9.4610   ...
-          0.3207    4.2980   -1.9382                ];
-    pb = [1.0000   -15.4071   178.6690 -580.8643 ... 
-          985.5873 -853.9492  296.9213              ];
-    pc = [0.0531    0.9449    90.5063   0.1639      ];
-    r = polyval(pa,x.^2) ./ polyval(pb,x.^2) + ...
-        pc(1) ./ (1+exp(-(x-pc(2))*pc(3))) + pc(4);
-end
-	\end{verbatim}
-\end{matlablisting}
+\begin{lstlisting}[language=Python, basicstyle=\small]
+def cx(x):
+  pa = [0.0525, -0.9476, 8.9342, -9.4610, 0.3207, 4.2980, -1.9382]
+  pb = [1.0000, -15.4071, 178.6690, -580.8643, 985.5873, -853.9492, 296.9213]
+  pc = [0.0531, 0.9449, 90.5063, 0.1639]
+  r = polyval(pa,x2) / polyval(pb,x2) + pc[0] / (1 + exp(-(x-pc[1])*pc[2])) + pc[3]
+return r
+\end{lstlisting}
 Для учета деривации надо систему дифференциальных уравнений внешней баллистики для движения центра масс тела дополнить еще двумя уравнениями
 \begin{equation} \label{c13eq7}
 	\begin{split}
@@ -66,7 +74,7 @@ end
 \begin{equation} \label{c13eq9}
 	1 \textit{д.у.} = \frac{\pi}{3000} = 0.06^\circ.
 \end{equation}
-\section{Задание}
+\section*{Задание}
 \begin{enumerate}
 \item Определить угол бросания для пули Б-32 пулемета НСВ-12.7 на дальность 2000м с точностью не хуже 0.01 д.у., если
 \begin{equation} \nonumber
@@ -93,3 +101,4 @@ end
 \item Определить максимальную дальность полета в условиях 1 задания ($T_0 = 15^\circ C$).
 \end{enumerate}
 
+\end{document}
