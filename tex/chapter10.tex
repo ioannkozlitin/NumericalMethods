@@ -1,6 +1,19 @@
-\chapter{}
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[T2A]{fontenc}      
+\usepackage[russian]{babel}
+\usepackage{listings} 
+\usepackage{titlesec}
 
-\section{Задание}
+\titleformat{\section}[block]{\filcenter\bfseries\large}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\filcenter\bfseries\normalsize}{\thesubsection}{1em}{}
+
+\begin{document}
+
+
+\section*{Задание к семинару №10}
 Решить двумерное однородное уравнение теплопроводности с граничными условиями Дирихле 
 \begin{equation} \label{c10eq1}
 	\begin{cases}
@@ -13,29 +26,31 @@
 в области $(x,y,t) \in [0; a] \times [0; b] \times [0; T]$.
 
 Функция $\mu(x,y)$ задается следующим образом ($\texttt{\lstinline|x|}$ и $\texttt{\lstinline|y|}$ - вектора, содержащие координаты узлов прямоугольной сетки):
-\begin{matlablisting}
-	\begin{verbatim}
-function z = mu(x, y)
-    z = zeros(length(y), length(x));
-    for i = 1:length(x)
-        for j = 1:length(y)
-            z(j,i) = -0.01*sin(x(i)) + 0.05*sin(y(j));
-        end
-    end
-end
-	\end{verbatim}
-\end{matlablisting}
-Параметры области: $a = 6\pi$, $b = 4\pi$, $T = 10$. Выбрать равномерную сетку с $h_x = h_y = \pi/30$ и шагом по времени $\tau = 0.1$. Коэффициент теплопроводности $k = 0.2$. Отображать двумерное решение на каждом временном слое с помощью функции $\texttt{\lstinline|mesh|}$.
+\begin{lstlisting}[language=Python, basicstyle=\small]
+import numpy as np
 
-\section{Указания}
+def mu(x, y):
+	z = np.zeros((len(y), len(x)))
+	for i in range(len(x)):
+	  for j in range(len(y)):
+	    z[j, i] = -0.01 * np.sin(x[i]) + 0.05 * np.sin(y[j])
+	return z
+	\end{lstlisting}
+Параметры области: $a = 6\pi$, $b = 4\pi$, $T = 10$. Выбрать равномерную сетку с $h_x = h_y = \pi/30$ и шагом по времени $\tau = 0.1$. Коэффициент теплопроводности $k = 0.2$.
+
+\section*{Указания}
 Для решения использовать эволюционно-факторизованную схему
 \begin{equation} \label{c10eq2}
-	\begin{cases}
-		\displaystyle \left( E - \frac{\tau}{2} \Lambda_x \right) \nu = \Lambda_x u + \Lambda_y u \\
-		\displaystyle \left( E - \frac{\tau}{2} \Lambda_y \right) \Delta u = \nu \\
-		\hat{u} = u + \tau \Delta u
-	\end{cases}.
+    \begin{cases}
+        \begin{aligned}
+            &\left(E - \frac{\tau}{2} \Lambda_x \right) \nu = \Lambda_x u + \Lambda_y u \\
+            &\left(E - \frac{\tau}{2} \Lambda_y \right) \Delta u = \nu \\
+            &\hat{u} = u + \tau \Delta u
+        \end{aligned}
+    \end{cases}.
 \end{equation}
+
+
 Здесь $\Lambda_x$ и $\Lambda_y$ - операторы пространственного дифференцирования. Проблем с промежуточным граничным условием здесь не возникает, так как $u$ на границе не меняется со временем, а значит на границе $\hat{u} - u = 0$ и $\nu = 0$.
 
 Операторы $P_x = E - \frac{\tau}{2} \Lambda_x$ и $P_y = E - \frac{\tau}{2} \Lambda_y$ могут быть записаны в матричной форме с помощью замены $\Lambda_x$ и $\Lambda_y$ на соответствующие матрицы пространственного дифференцирования $L_x$ и $L_y$. При этом надо помнить, что
@@ -49,4 +64,31 @@ end
 
 Не следует применять операторы пространственного дифференцирования $\Lambda_x$ и $\Lambda_y$ к крайним строкам и столбцам матрицы $u$, так как в таком случае в $\Delta u$ в крайних строках и столбцах будут содержаться ненулевые значения, что приведет к нарушению граничных условий в расчете.
 
+\section*{Примечание}
 
+Отображать двумерное решение на каждом временном слое можно с помощью функции $\texttt{\lstinline|mesh|}$.
+
+\begin{lstlisting}[language=Python]
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+x = np.linspace(0, 6*np.pi, 100)
+y = np.linspace(0, 4*np.pi, 100)
+x, y = np.meshgrid(x, y)
+z = -0.01 * np.sin(x) + 0.05 * np.sin(y)
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+ax.plot_surface(x, y, z, cmap='viridis')
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('U')
+
+plt.show()
+
+\end{lstlisting}
+
+\end{document}

@@ -1,6 +1,18 @@
-\chapter{}
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[T2A]{fontenc}      
+\usepackage[russian]{babel}
+\usepackage{listings} 
+\usepackage{titlesec}
 
-\section{Задание}
+\titleformat{\section}[block]{\filcenter\bfseries\large}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\filcenter\bfseries\normalsize}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\section*{Задание к семинару №8}
 Решить квазилинейное уравнение переноса
 \begin{equation} \label{c8eq1}
 	\begin{cases}
@@ -9,11 +21,48 @@
 		u(0,t) = u(0,0) 
 	\end{cases}.
 \end{equation}
-Задачу следует решать на отрезке $[0; 100]$ по пространству. Шаг равномерной сетки по пространству $h = 1$, шаг по времени $\tau = 0.05$. Число шагов по времени $N = 1000$. На каждом временном слое отображать решение на графике с помощью команды $\texttt{\lstinline|plot|}$. В результате должна получиться анимационная картинка. Опыт показывает, что для поучения эффекта анимации необходимо после каждой команды рисования вставить команду паузы с минимальным временем задержки, например $\texttt{\lstinline|pause(1e-6)|}$.
+Задачу следует решать на отрезке $[0; 100]$ по пространству. Шаг равномерной сетки по пространству $h = 1$, шаг по времени $\tau = 0.05$. Число шагов по времени $N = 1000$.
 
 Расчет вести с помощью консервативной чисто неявной схемы для квазилинейного уравнения переноса
 \begin{equation} \label{c8eq2}
 	\frac{\hat{u}_n - u_n}{\tau} + \frac{\hat{u}^2_n - \hat{u}^2_{n-1}}{2h} = 0.	
 \end{equation}
 
+\subsection*{Приложение}
+Для рисования графиков и создания анимации в Python можно использовать библиотеку \texttt{matplotlib}. Для каждого временного шага необходимо вызывать функцию \texttt{plot} для построения графика решения на текущем временном слое.
+Для сохранения анимации можно использовать функцию ani.save('animation.mp4', writer='ffmpeg', fps=30)
 
+Пример кода на Python для построения анимации:
+\begin{lstlisting}[language=Python]
+    %matplotlib notebook
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import matplotlib.animation as animation
+    
+    fig, ax = plt.subplots()
+    
+    ax.set_xlim(-1.5, 1.5)
+    ax.set_ylim(-1.5, 1.5)
+    
+    line, = ax.plot([], [], lw=2)
+    
+    def init():
+        line.set_data([], [])
+        return line,
+    
+    def update(frame):
+        theta = np.radians(frame) 
+        x = np.cos(theta) 
+        y = np.sin(theta)
+        line.set_data([0, x], [0, y]) 
+        return line,
+    
+    ani = animation.FuncAnimation(fig, update, 
+                                  frames=np.arange(0, 361, 6), 
+                                  init_func=init, blit=True)
+    
+    plt.show()
+    
+    
+\end{lstlisting}
+\end{document}
